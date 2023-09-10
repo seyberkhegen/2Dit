@@ -1,0 +1,129 @@
+/*2*/
+@font-face {
+  font-family: "Parangon530C";
+  src: url(../fonts/Parangon530C.ttf);
+}
+@font-face {
+  font-family: "ProximaThin";
+  src: url(../fonts/ProximaNovaT-Thin.ttf);
+}
+@font-face {
+  font-family: "ProximaLight";
+  src: url(../fonts/ProximaNova-Light.ttf);
+}
+@font-face {
+  font-family: "ProximaBold";
+  src: url(../fonts/ProximaNova-Semibold.ttf);
+}
+.section_second_task {
+  display: flex;
+  width: 1360px;
+  height: auto;
+  padding: 57px 209px 54px 209px;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 0 auto;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+.card {
+  height: 430px;
+  width: 290px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  background: #eff5f5;
+}
+.img_card {
+  width: 290px;
+  height: 290px;
+  object-fit: cover;
+  object-position: 50%;
+}
+.box_img_second_task {
+  width: 290px;
+  height: 290px;
+  position: relative;
+}
+.marked {
+  height: 14px;
+  background: #a32018;
+  padding: 4px 7px 4px 7px;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  margin-left: 15px;
+  bottom: 262px;
+}
+.discount {
+  background: #e0cd1c;
+}
+.rocket {
+  background: #087a28;
+}
+.marked p {
+  color: #fff;
+  font-family: "Parangon530C";
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  padding-left: 7px;
+}
+.in_stock {
+  color: #4f493f;
+  font-family: "ProximaLight";
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: #fff;
+  padding: 4px 6px 1px 6px;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  gap: 2px;
+}
+.card_description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: start;
+  margin-right: 20px;
+  font-family: "ProximaLight";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.card_category {
+  color: #6e6659;
+}
+.card_title {
+  color: #264e58;
+  font-family: "ProximaBold";
+  font-size: 18px;
+  font-weight: 600;
+}
+.card_article {
+  color: #a5a5a5;
+}
+.number {
+  color: #264e58;
+}
+.card_cost {
+  color: #a5a5a5;
+}
+.sum {
+  color: #6e6659;
+  font-family: "ProximaBold";
+  font-size: 24px;
+  font-weight: 700;
+}

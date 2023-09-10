@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "Comissioner";
+  src: url("../fonts/Commissioner-Light.ttf");
+}
+@font-face {
+  font-family: "ComissionerBold";
+  src: url("../fonts/Commissioner-Bold.ttf");
+}
+.fifth_task {
+  display: flex;
+  width: 1360px;
+  padding: 53px 155px 49px 155px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.panel_period {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 13px;
+}
+.previous_period {
+  color: var(--text-base-text, #626262);
+  font-family: "Commissioner", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%;
+}
+.plan {
+  color: var(--text-gray-text, #a7a7a7);
+  font-family: "Commissioner", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 33px;
+  height: 19px;
+}
+.switch input {
+  display: none;
+}
+.switch-btn {
+  display: flex;
+  align-items: center;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #e83d46;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 4px;
+  bottom: 3px;
+  background-color: #f9a620;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+input:checked + .slider {
+  background-color: #ff6640;
+}
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+input:checked + .slider:before {
+  -webkit-transform: translateX(13px);
+  -ms-transform: translateX(13px);
+  transform: translateX(13px);
+}
+.slider.round {
+  border-radius: 34px;
+}
+.slider.round:before {
+  border-radius: 50%;
+}
+.category {
+  display: flex;
+  flex-direction: row;
+}
+.sales {
+  color: var(--brand-roni-black, #262424);
+  font-family: "CommissionerBold", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 155%;
+}
+.quantity_sales {
+  color: var(--text-base-text, #626262);
+  font-family: "CommissionerBold", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 155%;
+  flex-direction: row;
+}
+.revenue_sales {
+  color: var(--text-base-text, #626262);
+  font-family: "CommissionerBold", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 155%;
+  flex-direction: row;
+}
+.sales_card {
+  display: flex;
+}
+.card_name {
+  padding-top: 43px;
+  padding-left: 20px;
+  position: absolute;
+}
+.statistic {
+  display: flex;
+}

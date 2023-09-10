@@ -3,8 +3,9 @@
     <head>
       <meta charset="UTF-8" />
       <title>2Dit</title>
-      <link rel="stylesheet" href="./style.css" />
-      <link rel="stylesheet" href="./reset.css" />
+      <link rel="stylesheet" href="./css/style.css" />
+      <script src="./node_modules/chart.js/dist/chart.umd.js"></script>
+      <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     </head>
     <body>
       <section class="section_first_task">
@@ -15,19 +16,19 @@
           <div class="main-text">
             <p>
               Когда застройщик нарушает сроки сдачи по ДДУ, вы как дольщик
-              имеете право требовать неустойку за просрочку, а также компенсацию
-              убытков, вызванных этой просрочкой.
+              имеете&nbsp;право требовать неустойку за просрочку, а также
+              компенсацию убытков, вызванных этой просрочкой.
             </p>
             <p>
               Само собой, застройщику невыгодно добровольно выплачивать вам
               компенсацию. Когда дело доходит до суда, суд урезает сумму
-              неустойки на основании ст. 333 ГК РФ. Это урезание практически
-              неизбежно.
+              неустойки&nbsp;на основании ст. 333 ГК РФ. Это урезание
+              практически неизбежно.
             </p>
             <p>
               Основная наша задача состоит в том, чтобы взыскать неустойку по
-              ДДУ в максимальном размере, т.е. избежать сильного ее урезания.
-              Вот что вы можете требовать от застройщика.
+              ДДУ в&nbsp;максимальном размере, т.е. избежать сильного ее
+              урезания. Вот что вы&nbsp;можете требовать от застройщика.
             </p>
           </div>
         </div>
@@ -41,39 +42,66 @@
               <p>Выплата неустойки по ДДУ?</p>
             </div>
           </div>
-
           <div class="accordion-item">
             <div class="accordion-header">
-              <h3>Заголовок 2</h3>
+              <h3>Компенсация морального вреда</h3>
               <span class="accordion-arrow"></span>
             </div>
             <div class="accordion-content">
-              <p>Содержимое 2</p>
+              <p>Компенсация морального вреда</p>
             </div>
           </div>
-
           <div class="accordion-item">
             <div class="accordion-header">
-              <h3>Заголовок 3</h3>
+              <h3>Штраф в размере 50%</h3>
               <span class="accordion-arrow"></span>
             </div>
             <div class="accordion-content">
-              <p>Содержимое 3</p>
+              <p>Штраф в размере 50%</p>
             </div>
           </div>
+          <div class="accordion-item">
+          <div class="accordion-header">
+            <h3>Компенсация расходов по аренде жилья</h3>
+            <span class="accordion-arrow"></span>
+          </div>
+          <div class="accordion-content">
+            <p>Компенсация расходов по аренде жилья</p>
+          </div>
+         </div>
+         <div class="accordion-item">
+        <div class="accordion-header">
+          <h3>Компенсация убытков по ипотеке</h3>
+          <span class="accordion-arrow"></span>
         </div>
+        <div class="accordion-content">
+          <p>Компенсация убытков по ипотеке</p>
+        </div>
+         </div>
+         <div class="accordion-item">
+      <div class="accordion-header">
+        <h3>Возмещение иных расходов</h3>
+        <span class="accordion-arrow"></span>
+      </div>
+      <div class="accordion-content">
+        <p>Возмещение иных расходов</p>
+      </div>
+        </div>
+  </div>
+  </div>
+  </div>
       </section>
 
       <section class="section_second_task">
         <div class="card">
           <div class="box_img_second_task">
-            <img class="img_card" src="chair.png" alt="" />
+            <img class="img_card" src="./img/chair.png" alt="" />
             <div class="marked">
-              <img src="./star.svg" alt="" />
+              <img class="card-mark" src="./img/star.svg" alt="" />
               <p>ХИТ ПРОДАЖ</p>
             </div>
             <div class="in_stock">
-              <img src="./check-mark.svg" alt="" />
+              <img src="./img/check-mark.svg" alt="" />
               <p>В наличии</p>
             </div>
           </div>
@@ -81,7 +109,7 @@
             <p class="card_category">Кресла театральные</p>
             <p class="card_title">Театральное кресло Прайм</p>
             <p class="card_article">
-              Артикул:<span class="card_article number">789-2341</span>
+              Артикул:<span class="card_article number"> 789-2341</span>
             </p>
             <p class="card_cost">
               от: <span class="card_cost sum">6 762</span> Р
@@ -90,13 +118,13 @@
         </div>
         <div class="card">
           <div class="box_img_second_task">
-            <img class="img_card" src="chair_blue.png" alt="" />
+            <img class="img_card" src="./img/chair_blue.png" alt="" />
             <div class="marked discount">
-              <img src="./discount.svg" alt="" />
+              <img class="card-mark" src="./img/discount.svg" alt="" />
               <p>АКЦИЯ</p>
             </div>
             <div class="in_stock">
-              <img src="./check-mark.svg" alt="" />
+              <img src="./img/check-mark.svg" alt="" />
               <p>В наличии</p>
             </div>
           </div>
@@ -104,7 +132,7 @@
             <p class="card_category">Кресла театральные</p>
             <p class="card_title">Театральное кресло Прайм</p>
             <p class="card_article">
-              Артикул:<span class="card_article number">789-2341</span>
+              Артикул:<span class="card_article number"> 789-2341</span>
             </p>
             <p class="card_cost">
               от: <span class="card_cost sum">6 762</span> Р
@@ -113,13 +141,13 @@
         </div>
         <div class="card">
           <div class="box_img_second_task">
-            <img class="img_card" src="chair.png" alt="" />
+            <img class="img_card" src="./img/chair.png" alt="" />
             <div class="marked rocket">
-              <img src="./rocket.svg" alt="" />
+              <img class="card-mark" src="./img/rocket.svg" alt="" />
               <p>НОВИНКА</p>
             </div>
             <div class="in_stock">
-              <img src="./check-mark.svg" alt="" />
+              <img src="./img/check-mark.svg" alt="" />
               <p>В наличии</p>
             </div>
           </div>
@@ -127,7 +155,7 @@
             <p class="card_category">Кресла театральные</p>
             <p class="card_title">Театральное кресло Прайм</p>
             <p class="card_article">
-              Артикул:<span class="card_article number">789-2341</span>
+              Артикул:<span class="card_article number"> 789-2341</span>
             </p>
             <p class="card_cost">
               от: <span class="card_cost sum">6 762</span> Р
@@ -136,13 +164,13 @@
         </div>
         <div class="card">
           <div class="box_img_second_task">
-            <img class="img_card" src="chair.png" alt="" />
+            <img class="img_card" src="./img/chair.png" alt="" />
           </div>
           <div class="card_description">
             <p class="card_category">Кресла театральные</p>
             <p class="card_title">Театральное кресло Прайм</p>
             <p class="card_article">
-              Артикул:<span class="card_article number">789-2341</span>
+              Артикул:<span class="card_article number"> 789-2341</span>
             </p>
             <p class="card_cost">
               от: <span class="card_cost sum">6 762</span> Р
@@ -151,13 +179,13 @@
         </div>
         <div class="card">
           <div class="box_img_second_task">
-            <img class="img_card" src="chair.png" alt="" />
+            <img class="img_card" src="./img/chair.png" alt="" />
           </div>
           <div class="card_description">
             <p class="card_category">Кресла театральные</p>
             <p class="card_title">Театральное кресло Прайм</p>
             <p class="card_article">
-              Артикул:<span class="card_article number">789-2341</span>
+              Артикул:<span class="card_article number"> 789-2341</span>
             </p>
             <p class="card_cost">
               от: <span class="card_cost sum">6 762</span> Р
@@ -166,24 +194,88 @@
         </div>
       </section>
 
+      <section class="third_task">
+        <div class="container_third_task">
+          <div class="article_title">
+            <div class="number_article">
+              <p>.01</p>
+            </div>
+            <div class="article_title_first">
+              <p>С РАСЧЕТНОГО СЧЕТА КОМПАНИИ</p>
+            </div>
+          </div>
+          <div class="box_text_third_task">
+            <p class="line">Diam aliquam quis blandit sollicitudin sit ut venenatis dictum fusce gravida, 
+              porta commodo natoque tristique magna massa laoreet luctus. Ligula per justo condimentum et ut dignissim ipsum, 
+              consequat tristique sollicitudin convallis bibendum risus lorem nostra, cubilia purus odio tincidunt amet euismod. Luctus nascetur urna 
+              adipiscing nisl libero bibendum maecenas accumsan mi, ligula consectetur congue nam magnis posuere purus. Himenaeos habitasse nunc 
+              sociosqu erat aliquam class justo porta dictumst, pulvinar id dignissim facilisi dolor tincidunt in non tellus, nam posuere laoreet 
+              turpis diam ut placerat lacus. Facilisi nec sagittis interdum blandit urna turpis sociosqu risus, viverra class odio aliquet cras morbi 
+              nunc egestas convallis, habitasse mollis mi maximus donec congue commodo. Rutrum  turpis diam ut placerat lacus. Facilisi nec sagittis
+              interdum blandit urna turpis sociosqu risus, viverra class odio aliquet cras morbi nunc egestas convallis, habitasse mollis mi maximus
+              donec congue commodo. Rutrum </p>
+          </div>
+          <div class="img_third_task">
+            <img class="img_post" src="./img/img_1post.png" alt="">
+          </div>
+        </div>
+        <div class="container_third_task">
+          <div class="article_title">
+            <div class="number_article second-number">
+              <p>.02</p>
+            </div>
+            <div class="article_title_first second-article">
+              <p>С карты через онлайн банк физлица&nbsp;или в отделении банка</p>
+            </div>
+          </div>
+            <div class="img_third_task">
+              <img class="img_post" src="./img/img_2post.png" alt="">
+            </div>
+          <div class="box_text_third_task second-text">
+            <p class="line">Diam aliquam quis blandit sollicitudin sit ut venenatis dictum fusce gravida, porta commodo natoque tristique magna massa 
+              laoreet luctus. Ligula per justo condimentum et ut dignissim ipsum, consequat tristique sollicitudin convallis bibendum risus lorem nostra,
+              cubilia purus odio tincidunt amet euismod. Luctus nascetur urna adipiscing nisl libero bibendum maecenas accumsan mi, ligula consectetur 
+              congue nam magnis posuere purus. Himenaeos habitasse nunc sociosqu erat aliquam class justo porta dictumst, pulvinar id dignissim facilisi 
+              dolor tincidunt in non tellus, nam posuere laoreet turpis diam ut placerat lacus.
+             </p>
+          </div>
+        </div>
+      </section>
+
       <div class="four_task">
-        <div class="four_task_title">Оставите заявку</div>
-        <div class="four_task_text">И наш специалист свяжется с вами</div>
-        <div class="order-form-inputs">
-          <div class="order-form-input">
-            <input type="text" placeholder="Ваше имя" id="name" />
+        <div class="box_form">
+          <div>
+            <p class="four_task_title">Оставите заявку</p>
+            <p class="four_task_text">И наш специалист свяжется с вами</p>
           </div>
-          <div class="order-form-input">
-            <input type="text" placeholder="+7 (___) ___-__-__" id="phone" />
-          </div>
-          <div class="order-form-input">
-            <input type="text" placeholder="Эл. почта" id="email" />
+
+          <div class="box_order_form">
+            <div class="order-form-input">
+              <input type="text" placeholder="Ваше имя" id="name" />
+            </div>
+            <div class="order-form-input">
+              <img class="img_order-form-input" src="../img/ru.png" />
+              <input
+                class="margin_left_number"
+                type="text"
+                placeholder="+7 (___) ___-__-__"
+                id="phone"
+              />
+            </div>
+            <div class="order-form-input">
+              <input type="text" placeholder="Эл. почта" id="email" />
+            </div>
           </div>
           <div class="checkout_order">
-            <div class="checkout_text">
-              Нажимая кнопку, я принимаю <a>пользовательское соглашение</a>,
-              соглашаюсь с политикой конфиденциальности, условиями пользования
-              сайтом, передачей и обработкой моих персональных данных
+            <div class="box_checkout_text">
+              <span class="checkout_text">
+                Нажимая кнопку, я принимаю
+                <a href="" class="link_checkout_text" style="color: #eb7979"
+                  >пользовательское соглашение</a
+                >, соглашаюсь с политикой конфиденциальности, условиями
+                пользования сайтом, передачей и обработкой моих персональных
+                данных
+              </span>
             </div>
             <button class="order_button" id="order-action">
               Оформить заявку
@@ -192,6 +284,53 @@
         </div>
       </div>
 
-      <script src="./script.js"></script>
-    </body></html
-></DOCTYPE>
+      <section class="fifth_task">
+        <div class="panel_period">
+        <p class="previous_period">Предыдущий период</p>
+        <div class="switch-btn">
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+        </label>
+        </div>
+        <p class="plan">План</p>
+      </div>
+      <p class="sales">Продажи</p>
+      <div class="category">
+        <div class="quantity_sales">
+        <p>Количество проданных пицц</p>
+        <div class="statistic">
+        <div class="sales-card">
+            <p class="card_name">Страны</p>
+            <canvas id="countries_chart"></canvas>
+          </div>
+          <div class="sales-card">
+            <p class="card_name">Города</p>
+            <canvas id="cities_chart"></canvas>
+          </div>
+      </div>
+    </div>
+    <div class="revenue_sales">
+      <p>Выручка</p>
+      <div class="statistic">
+      <div class="sales-card">
+          <p class="card_name">Страны</p>
+          <canvas id="countries_revenue"></canvas>
+        </div>
+        <div class="sales-card">
+          <p class="card_name">Города</p>
+          <canvas id="cities_revenue"></canvas>
+        </div>
+    </div>
+  </div>
+
+    </div>
+      </section>
+
+      <script src="./js/script.js"></script>
+
+    
+
+    </body>
+    </html>
+  </DOCTYPE>
